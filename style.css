@@ -1,0 +1,22 @@
+.logo
+{
+    border: 2px solid red;
+    padding: 40px;
+    margin: 50px;
+    display: flex;
+    height: auto;
+    align-items: first baseline;
+    justify-content: baseline;
+}
+.search{
+    margin: 30px;
+}
+.search input{
+    width: 500px;
+    padding: 10px;
+    margin: 30px;
+}
+.search button{
+    width: auto;
+    padding: 10px;
+}
