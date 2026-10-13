@@ -1,22 +1,78 @@
-.logo
-{
-    border: 2px solid red;
-    padding: 40px;
-    margin: 50px;
+body{
+margin: 0px;
+pad: 0px;
+}
+
+.navbar{
     display: flex;
-    height: auto;
-    align-items: first baseline;
-    justify-content: baseline;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 30px;
+    background-color: aliceblue;
 }
-.search{
-    margin: 30px;
+.logo{
+    
+    gap: 15px;
+    align-content: center;
+    
+    
 }
-.search input{
-    width: 500px;
-    padding: 10px;
-    margin: 30px;
+.logo span{
+font-size: 25px;
+padding: 0px;
+margin: 0px;
 }
-.search button{
-    width: auto;
-    padding: 10px;
+.logo a{
+    font-size: 25px;
+    font-weight: 900px;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ border:2px solid rgb(219, 219, 219);
+  padding: 6px;
+  border-radius: 25px;
+  width: 300px;
+}
+
+.searchbar input{
+    background-color: aliceblue;
+    border: none;
+}
+.searchbar span{
+    font-size: 25px;
+
+}
+.cart{
+    font-size: 25px;
+    display: flex;
+    gap: 15px;
+}
+.hero{
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    margin: 0px 30px;
+    border-radius: 5px 20px 20px 5px;
+    
+   
+}
+.heroimg{
+  height: 300px;
+  border-radius: 0px 20px 20px 0px;
+   
+
+   
+}
+.herosent{
+    margin:30px;
+    
+}
+.img2{
+    color: white;
+    background-color: black;
 }
